@@ -27,6 +27,7 @@ class HomeScreen extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
 
+
                     const Text(
                       "Headline",
                       style: TextStyle(fontSize: 18),
