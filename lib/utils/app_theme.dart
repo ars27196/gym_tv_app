@@ -16,33 +16,33 @@ class AppTheme {
 
   static String get fontName => 'Poppins';
 
-  TextStyle? titleTextWhite = TextStyle(
+    TextStyle? titleTextWhite28 = TextStyle(
       color: AppColors.white,
       fontFamily: AppTheme.fontName,
       fontSize: 28,
-      fontWeight: FontWeight.w600);
+      fontWeight: FontWeight.w600,);
 
-  TextStyle? textWhite = TextStyle(
+  TextStyle? textWhite18 = TextStyle(
       color: AppColors.white,
       fontFamily: AppTheme.fontName,
       fontSize: 18,
-      fontWeight: FontWeight.w400);
+      fontWeight: FontWeight.w400,);
 
-  TextStyle? hintTextGrey = TextStyle(
+  TextStyle? hintTextGrey14 = TextStyle(
     color: AppColors.hintGrey,
     fontFamily: AppTheme.fontName,
     fontSize: 14,
     fontWeight: FontWeight.w400,
   );
 
-  TextStyle?  titleTextRed14 = TextStyle(
+  TextStyle  titleTextRed14 = TextStyle(
     color: AppColors.red,
     fontFamily: AppTheme.fontName,
     fontSize: 14,
     fontStyle: FontStyle.normal,
     fontWeight: FontWeight.w400,
   );
-  TextStyle?  titleTextRed18 = TextStyle(
+  TextStyle  titleTextRed18 = TextStyle(
     color: AppColors.red,
     fontFamily: AppTheme.fontName,
     fontSize: 18,

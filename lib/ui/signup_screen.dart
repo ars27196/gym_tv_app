@@ -21,7 +21,7 @@ class SignUpScreen extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
                     "Create Account",
-                    style: AppTheme.getInstance().titleTextWhite,
+                    style: AppTheme.getInstance().titleTextWhite28,
                   ),
                 ),
               ),
@@ -29,11 +29,11 @@ class SignUpScreen extends StatelessWidget {
                 child: SizedBox(
                   width: 420,
                   child: TextFormField(
-                    style: AppTheme.getInstance().textWhite,
+                    style: AppTheme.getInstance().textWhite18,
                     keyboardType: TextInputType.name,
                     decoration: InputDecoration(
                       hintText: "Full Name",
-                      hintStyle: AppTheme.getInstance().hintTextGrey,
+                      hintStyle: AppTheme.getInstance().hintTextGrey14,
                       prefixIcon: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10),
                         child: Icon(
@@ -67,11 +67,11 @@ class SignUpScreen extends StatelessWidget {
                 child: SizedBox(
                   width: 420,
                   child: TextFormField(
-                    style: AppTheme.getInstance().textWhite,
+                    style: AppTheme.getInstance().textWhite18,
                     keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
                       hintText: "Email",
-                      hintStyle: AppTheme.getInstance().hintTextGrey,
+                      hintStyle: AppTheme.getInstance().hintTextGrey14,
                       prefixIcon: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10),
                         child: SvgPicture.asset('assets/images/email_icon.svg',
@@ -103,11 +103,11 @@ class SignUpScreen extends StatelessWidget {
                 child: SizedBox(
                   width: 420,
                   child: TextFormField(
-                    style: AppTheme.getInstance().textWhite,
+                    style: AppTheme.getInstance().textWhite18,
                     keyboardType: TextInputType.name,
                     decoration: InputDecoration(
                       hintText: "User Name",
-                      hintStyle: AppTheme.getInstance().hintTextGrey,
+                      hintStyle: AppTheme.getInstance().hintTextGrey14,
                       prefixIcon: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10),
                         child: Icon(
@@ -141,11 +141,11 @@ class SignUpScreen extends StatelessWidget {
                 child: SizedBox(
                   width: 420,
                   child: TextFormField(
-                    style: AppTheme.getInstance().textWhite,
+                    style: AppTheme.getInstance().textWhite18,
                     keyboardType: TextInputType.phone,
                     decoration: InputDecoration(
                       hintText: "Phone Number",
-                      hintStyle: AppTheme.getInstance().hintTextGrey,
+                      hintStyle: AppTheme.getInstance().hintTextGrey14,
                       prefixIcon: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10),
                         child: Icon(
@@ -180,10 +180,10 @@ class SignUpScreen extends StatelessWidget {
                   width: 420,
                   child: TextFormField(
                     obscureText: true,
-                    style: AppTheme.getInstance().textWhite,
+                    style: AppTheme.getInstance().textWhite18,
                     decoration: InputDecoration(
                       hintText: "Password",
-                      hintStyle: AppTheme.getInstance().hintTextGrey,
+                      hintStyle: AppTheme.getInstance().hintTextGrey14,
                       prefixIcon: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10),
                         child: SvgPicture.asset(
@@ -217,10 +217,10 @@ class SignUpScreen extends StatelessWidget {
                   width: 420,
                   child: TextFormField(
                     obscureText: true,
-                    style: AppTheme.getInstance().textWhite,
+                    style: AppTheme.getInstance().textWhite18,
                     decoration: InputDecoration(
                       hintText: "Confirm Password",
-                      hintStyle: AppTheme.getInstance().hintTextGrey,
+                      hintStyle: AppTheme.getInstance().hintTextGrey14,
                       prefixIcon: Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 10),
                         child: SvgPicture.asset(
@@ -259,7 +259,7 @@ class SignUpScreen extends StatelessWidget {
                   child: Center(
                       child: Text(
                     "Create Account",
-                    style: AppTheme.getInstance().textWhite,
+                    style: AppTheme.getInstance().textWhite18,
                   )),
                 ),
               ),
@@ -272,7 +272,7 @@ class SignUpScreen extends StatelessWidget {
                   child: RichText(
                     text: TextSpan(
                         text: "Already have an account? ",
-                        style: AppTheme.getInstance().textWhite,
+                        style: AppTheme.getInstance().textWhite18,
                         children: [
                           TextSpan(
                             text: 'Login In',

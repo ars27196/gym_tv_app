@@ -22,7 +22,7 @@ class LoginScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
                   "Login",
-                  style: AppTheme.getInstance().titleTextWhite,
+                  style: AppTheme.getInstance().titleTextWhite28,
                 ),
               ),
             ),
@@ -30,11 +30,11 @@ class LoginScreen extends StatelessWidget {
               child: SizedBox(
                 width: 420,
                 child: TextFormField(
-                  style: AppTheme.getInstance().textWhite,
+                  style: AppTheme.getInstance().textWhite18,
                   keyboardType: TextInputType.emailAddress,
                   decoration: InputDecoration(
                     hintText: "Email/User Name",
-                    hintStyle: AppTheme.getInstance().hintTextGrey,
+                    hintStyle: AppTheme.getInstance().hintTextGrey14,
                     prefixIcon: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 10),
                       child: SvgPicture.asset('assets/images/email_icon.svg',
@@ -67,10 +67,10 @@ class LoginScreen extends StatelessWidget {
                 width: 420,
                 child: TextFormField(
                   obscureText: true,
-                  style: AppTheme.getInstance().textWhite,
+                  style: AppTheme.getInstance().textWhite18,
                   decoration: InputDecoration(
                     hintText: "Password",
-                    hintStyle: AppTheme.getInstance().hintTextGrey,
+                    hintStyle: AppTheme.getInstance().hintTextGrey14,
                     prefixIcon: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 10),
                       child: SvgPicture.asset('assets/images/password_icon.svg',
@@ -123,7 +123,7 @@ class LoginScreen extends StatelessWidget {
                   child: Center(
                       child: Text(
                     "Login",
-                    style: AppTheme.getInstance().textWhite,
+                    style: AppTheme.getInstance().textWhite18,
                   )),
                 ),
               ),
@@ -137,7 +137,7 @@ class LoginScreen extends StatelessWidget {
                 child: RichText(
                   text: TextSpan(
                       text: "Don't have an account? ",
-                      style: AppTheme.getInstance().textWhite,
+                      style: AppTheme.getInstance().textWhite18,
                       children: [
                         TextSpan(
                           text: 'Sign Up',
