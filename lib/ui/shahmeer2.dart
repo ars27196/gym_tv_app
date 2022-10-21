@@ -131,7 +131,7 @@ class ViewScreen extends StatelessWidget {
                             Expanded(
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(10),
-                                child: Image.asset("assets/images/carousel1.png", fit: BoxFit.fill),
+                                child: Image.asset("assets/images/carousel1.png", fit: BoxFit.fill,height: 200),
                               ),
                             ),
                           ],
